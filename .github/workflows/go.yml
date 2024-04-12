@@ -30,6 +30,6 @@ jobs:
     - name: Run golangci-lint
       uses: golangci/golangci-lint-action@v4.0.0
       with: 
-        go-version: '1.22'
+        version: 'latest'
     
           
